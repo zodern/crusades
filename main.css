@@ -1,0 +1,36 @@
+/* CSS declarations go here */
+body {
+     background-image: url(http://i.ytimg.com/vi/cMjUFBYEzqQ/maxresdefault.jpg); 
+  color: white;
+}
+.valign-wrapper {
+height: 400px;
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+h1.valign{
+  width: 100%;
+}
+
+.hero {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.56);
+  
+}
+.hero .valign-wrapper {
+ height: 100%;
+}
+.hero-after {
+  
+}
+.brown {
+  background-color: #3c2723 !important;
+}
+
