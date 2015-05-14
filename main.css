@@ -33,4 +33,13 @@ h1.valign{
 .brown {
   background-color: #3c2723 !important;
 }
+p {
+ font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+}
 
