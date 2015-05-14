@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 body {
      background-image: url(http://i.ytimg.com/vi/cMjUFBYEzqQ/maxresdefault.jpg); 
+  background-attachment: fixed;
   color: white;
 }
 .valign-wrapper {
@@ -41,5 +42,34 @@ p {
 
 h1 {
   font-family: 'Playfair Display SC', serif;
+}
+.row.section {
+ margin-bottom: 0px; 
+}
+.row.section h1{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row.section p {
+ padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+/* gets to the ,col with the contents */
+.row.section .col.s12:nth-child(2) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  min-height: 300px;
+}
+.row.section {
+ display: block; 
 }
 
