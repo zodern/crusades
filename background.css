@@ -9,10 +9,30 @@
   background-image: url(https://europeanhistory.boisestate.edu/images/maps/Byzantine_Empire_1025.png);
 }
 
+#second {
+  background-image: url(http://t1.gstatic.com/images?q=tbn:ANd9GcQfPI5JCE6BP7rtk5OVjcWKgI-11ozklqkfG6RfVuUQoZejVcL3:faculty.cua.edu/pennington/CracChevaliers.jpg);
+      background-position-y: 40% !important;
+}
+
 #third {
   background-image: url(http://vignette2.wikia.nocookie.net/genealogy/images/c/cb/BattleOfInab.jpg/revision/latest?cb=20110418191317);
     background-position-y: 40% !important;
     background-size: auto !important;
   background-repeat: repeat-x;
 
+}
+#fourth {
+ background-image: url(https://standrewsrarebooks.files.wordpress.com/2013/02/constantinople-2-melling-voyage-pittoresque.jpg); 
+}
+#fifth {
+ background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/02/Capturing_Damiate.jpg);
+}
+#sixth {
+ background-image: url(http://upload.wikimedia.org/wikipedia/commons/3/31/Antoine_Pesne_-_Frederick_the_Great_as_Crown_Prince_-_WGA17377.jpg);
+}
+#seventh {
+  background-image: url(https://i.warosu.org/data/tg/img/0356/70/1413917668114.jpg);
+}
+#eight {
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/03/1281BattleOfHoms.JPG);
 }
