@@ -32,6 +32,16 @@ h1.valign {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.56);
+  z-index: -1;
+}
+
+.hero h1 {
+  position: fixed;
+  font-size: 200px;
+  top: 50%;
+  margin-top: -100px;
+  z-index: -1;
+  
 }
 
 .hero .valign-wrapper {
