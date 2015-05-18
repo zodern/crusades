@@ -2,62 +2,113 @@
 
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!-- font -->
+  <!-- font -->
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
-<link rel="stylesheet" href="main.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+  <link rel="stylesheet" href="main.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+  <link href="background.css" rel="stylesheet" type="text/css">
+</head>
 
 <body>
-    <div class="container">
-      <div class="row">
-        <div class="col s12 hero">
-          <div class="valign-wrapper">
-        <h1 class="center valign">Crusades</h1>
-            </div>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 hero">
+        <div class="valign-wrapper">
+          <h1 class="center valign">Crusades</h1>
         </div>
-    </div>
-<div class="hero-after center">
-  <div class="row section">
-    <div class="col s12 brown">
-  <h1>Began When ...</h1>
-  </div>
-
-<div class="col s12 brown darken-2">
-  <p class="center">Muslims were entering Byzantine territory.  Byzantine emperor Alexius asked Pope Urban II for help against the muslims.  </p>
-  </div>
       </div>
- <div class="row section"> <div class="col s12 fun">
-  <h1>Fun Fact</h1>
-    <p class="">Everyone who participated in the crusades were forgiven of all their sins.</p>
-  </div></div>
-  
-<div class="row section">  <div class="col s12 brown">
-    <h1>First Crusade
+    </div>
+  </div>
+  <div class="hero-after center">
+    <div class="row section">
+      <div class="col s12 brown">
+        <h1>Began When</h1>
+      </div>
+
+      <div class="col s12 background-image" id="beginning">
+        <p class="center">Muslims were entering Byzantine territory. Byzantine emperor Alexius asked Pope Urban II for help against the muslims. </p>
+      </div>
+    </div>
+    <div class="row section">
+      <div class="col s12 fun">
+        <h1>Fun Fact</h1>
+        <p class="">Everyone who participated in the crusades were forgiven of all their sins.</p>
+      </div>
+    </div>
+
+    <div class="row section">
+      <div class="col s12 brown">
+        <h1>First Crusade
     <br>
       <small>1095 - 1099</small>
     </h1>
+      </div>
+      <div class="col s12 brown-boxshadow content valign-wrapper" style="  background: url(http://upload.wikimedia.org/wikipedia/commons/3/3b/Byzantium_after_the_First_crusade.PNG) !important;
+  background-size: cover !important;
+  background-position-y: 80% !important;
+  background-repeat: no-repeat;">
+
+        <div class="valign">
+          <p class="col s12">
+            Pope Urban II started the first crusade at the Council of Clermont in 1095.
+            <br>
+            <br> Goal was to free Palestin and Jerusalem from the Muslims.
+            <br>
+            <br> They captured Jerusalem in 1099. The crusaders massacred many people when entering, even though they said they wouldn't.
+            <br>
+            <br> Created 4 crusader states to protect the land they gained. The states were Jerusalem, Edessa, Antioch, and Tripoli.
+            <br>
+            <br> The crusader state Edessa was captured in 1144 by the Turks.
+          </p>
+        </div>
+      </div>
+      <div class="row section">
+        <div class="col s12 brown">
+          <h1>
+            Second Crusade <br>
+            <small>
+              1147 - 1149
+            </small>
+          </h1>
+        </div>
+        <div class="col s12 brown darken-1" id="second">
+          <p>
+            Because Edessa was lost in 1144, they decided to send a second crusade.
+            <br>
+            <br> Ended when the French and German armies failed to take Damascus
+          </p>
+        </div>
+      </div>
+      <div class="row section">
+        <div class="col s12 brown">
+          <h1>Third Crusade <br>
+          <small>
+            1189 - 1192
+            </small>
+          </h1>
+        </div>
+        <div class="col s12 background-image" id="third">
+          <p>
+            Led by Richard 1 from England, Philip II from France, and Federeick 1 from the Holy Roman Emperor.
+            <br>
+            <br>
+            In September 1191 Richard I defeated Saladin's army in the battle of Arsuf.  It was the only real battle in the third crusade
+                        <br><br>
+
+          Ended when Richard I and the Muslim leader Saladin compromised and allowed Christians access to the holy places.
+          </p>
+        </div>
+      </div>
     </div>
-  <div class="col s12 brown darken-2">
-    <p class="col s12">
-      Pope Urban II started at the Council of Clermont in 1095.
-    </p>
-    <p class="col s12">
-    Captured Jerusalem in 1099.  The crusaders massacred many people when entering, even though they said they wouldn't.</p>
-    <p class="col s12">
-    
-    </p>
-  </div></div>
   </div>
-  
+
   <script>
-  $('.hero-after').css('margin-top', window.innerHeight);
+    $('.hero-after').css('margin-top', window.innerHeight);
   </script>
 </body>
 

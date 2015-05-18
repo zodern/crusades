@@ -1,41 +1,51 @@
 /* CSS declarations go here */
+
 body {
-     background-image: url(http://i.ytimg.com/vi/cMjUFBYEzqQ/maxresdefault.jpg); 
+  background-image: url(http://i.ytimg.com/vi/cMjUFBYEzqQ/maxresdefault.jpg);
   background-attachment: fixed;
   color: white;
 }
+
 .valign-wrapper {
-height: 400px;
+  height: 400px;
+}
+.valign {
+ width: 100%; 
 }
 
 .row {
-    background-color: rgba(0, 0, 0, 0.56);
+  background-color: rgba(0, 0, 0, 0.56);
 }
 
-h1.valign{
+.content .row {
+  background-color: transparent;
+}
+
+h1.valign {
   width: 100%;
 }
 
 .hero {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.56);
-  
 }
+
 .hero .valign-wrapper {
- height: 100%;
+  height: 100%;
 }
-.hero-after {
-  
-}
+
+.hero-after {}
+
 .brown {
   background-color: #3c2723 !important;
 }
+
 p {
- font-size: 20px;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -43,20 +53,24 @@ p {
 h1 {
   font-family: 'Playfair Display SC', serif;
 }
+
 .row.section {
- margin-bottom: 0px; 
+  margin-bottom: 0px;
+  padding: 0px;
 }
-.row.section h1{
+
+.row.section h1 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .row.section p {
- padding-top: 50px;
+  padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
 }
 /* gets to the ,col with the contents */
+
 .row.section .col.s12:nth-child(2) {
   display: -webkit-box;
   display: -moz-box;
@@ -69,7 +83,16 @@ h1 {
   align-items: center;
   min-height: 300px;
 }
+
 .row.section {
- display: block; 
+  display: block;
 }
 
+.brown-boxshadow {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
