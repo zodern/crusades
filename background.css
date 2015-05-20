@@ -6,7 +6,7 @@
 }
 
 .fixed-background {
-  background-attachment: fixed;
+  background-attachment: local;
 }
 
 #beginning {

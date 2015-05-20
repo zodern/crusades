@@ -4,6 +4,7 @@ body {
   background-image: url(http://i.ytimg.com/vi/cMjUFBYEzqQ/maxresdefault.jpg);
   background-attachment: fixed;
   color: white;
+  overflow-x: hidden;
 }
 
 .valign-wrapper {
@@ -26,7 +27,7 @@ h1.valign {
 }
 
 .hero {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -48,7 +49,9 @@ h1.valign {
   height: 100%;
 }
 
-.hero-after {}
+.hero-after {
+  margin-top: 25%;
+}
 
 .brown {
   background-color: #3c2723 !important;
