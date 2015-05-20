@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+  <title>Crusades</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- font -->
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
@@ -53,10 +55,11 @@
       <small>1095 - 1099</small>
     </h1>
       </div>
-      <div class="col s12 brown-boxshadow content valign-wrapper" style="  background: url(http://upload.wikimedia.org/wikipedia/commons/3/3b/Byzantium_after_the_First_crusade.PNG) !important;
+      <div class="col s12 brown-boxshadow content" style="  background: url(http://upload.wikimedia.org/wikipedia/commons/3/3b/Byzantium_after_the_First_crusade.PNG) !important;
   background-size: cover !important;
   background-position-y: 80% !important;
-  background-repeat: no-repeat;" id="first">
+  background-repeat: no-repeat;
+                                                                                                             background-attachment: fixed" id="first">
 
         <div class="center col s12">
           <p>
@@ -101,7 +104,7 @@
             </small>
           </h1>
         </div>
-        <div class="col s12 background-image" id="third">
+        <div class="col s12 background-image fixed-background" data-stellar-background-ratio=".2" id="third">
           <div class="center col s12">
             <p>
               In 1187 Saladin, a Muslim commander, recaptured Jerusalem. Pope Gregory VII called for a crusade.
@@ -133,7 +136,7 @@
             </small>
           </h1>
         </div>
-        <div class="col s12 background-image" id="fourth">
+        <div class="col s12 background-image fixed-background" data-stellar-background-ratio="0.5" id="fourth">
           <div class="center col s12">
             <p>
               The new pope, Pope Innocent III, wanted another crusade. He called for one in 1198. The original plan was to conquer Jerusalem.
@@ -164,7 +167,7 @@
             </small>
           </h1>
           </div>
-          <div class="col s12 background-image" id="fifth">
+          <div class="col s12 background-image fixed-background" data-stellar-background-ratio="0.5" id="fifth">
             <div class="center col s12">
               <p>
                 Pope Innocent III called for the crusade, but died before it was carried out. Pope Honorius III toook over.
@@ -190,7 +193,7 @@
             </small>
           </h1>
           </div>
-          <div class="col s12 background-image" id="sixth">
+          <div class="col s12 background-image fixed-background" data-stellar-background-ratio="0.5" id="sixth">
             <div class="center col s12">
               <p>
                 The sixth crusade is the first crusade not initiated bythe authority or office of the Pope. Frederick II initiated it instead on his own because he was excommunicated (kicked out of the church).
@@ -213,7 +216,7 @@
             </small>
           </h1>
           </div>
-          <div class="col s12 background-image" id="seventh">
+          <div class="col s12 background-image fixed-background" data-stellar-background-ratio="0.1" id="seventh">
             <div class="center col s12">
               <p>
                 The Holy Lands had been taken over by the Turks in 1244.
@@ -248,22 +251,30 @@
             </small>
           </h1>
           </div>
-          <div class="col s12 background-image" id="eight">
-            <p>
-              Was organied by Louis IX.
-              <br>
-              <br> He sailed from Aigues-Mortes to help the remnants of the crusader states in Syria.
-            </p>
+          <div class="col s12 background-image fixed-background" data-stellar-background-ratio="0.1" id="eight">
+            <div class="center col s12">
+              <p>
+                Was organied by Louis IX. He sailed from Aigues-Mortes to help the remnants of the crusader states in Syria.
+              </p>
+              <p>
+                First marched to Tunis with hopes of converting the leader, Bey, to Christianity. The people didn't want to, and the city was recently fortified to they couldn't conquer it.
+              </p>
+              <p>
+                They layed siege to the city and waited for reinforcements.  Many of the soldiers died from lack of clean drinking water. King Louis IX died from a plague. His brother Charles took over, abandoned the siege and instead tried to negotiate.
+              </p>
+            </div>
           </div>
         </div>
         <div class="row section" style="padding: 50px 0px">&copy; 2015 <a href="http://zodern.me">zodern</a>
         </div>
       </div>
     </div>
+  </div>
 
     <script>
       $('.hero-after').css('margin-top', window.innerHeight);
       $('#first').css('height', $('#first .col').height() + 200);
+      $.stellar();
     </script>
     <script src="hello.js"></script>
 </body>

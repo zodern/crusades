@@ -2,6 +2,11 @@
   background-size: cover !important;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  background-attachment: local;
+}
+
+.fixed-background {
+  background-attachment: fixed;
 }
 
 #beginning {
@@ -15,10 +20,7 @@
 }
 
 #third {
-  background-image: url(http://vignette2.wikia.nocookie.net/genealogy/images/c/cb/BattleOfInab.jpg/revision/latest?cb=20110418191317);
-    background-position-y: 40% !important;
-    background-size: contain!important;
-  background-repeat: repeat-x;
+  background-image: url(http://102.imagebam.com/download/R064_FMRhyZ50O-v3dxIIw/26362/263612928/100.jpg);
 
 }
 #fourth {
