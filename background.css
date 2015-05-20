@@ -17,7 +17,7 @@
 #third {
   background-image: url(http://vignette2.wikia.nocookie.net/genealogy/images/c/cb/BattleOfInab.jpg/revision/latest?cb=20110418191317);
     background-position-y: 40% !important;
-    background-size: auto !important;
+    background-size: contain!important;
   background-repeat: repeat-x;
 
 }
