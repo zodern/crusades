@@ -1,10 +1,11 @@
 /* CSS declarations go here */
 
 body {
-  background-image: url(http://i.ytimg.com/vi/cMjUFBYEzqQ/maxresdefault.jpg);
+  background-image: url(images/optimized/hero.jpg);
   background-attachment: fixed;
   color: white;
   overflow-x: hidden;
+  pointer-events: none;
 }
 
 .valign-wrapper {
@@ -14,10 +15,21 @@ body {
  width: 100%; 
 }
 
-.row {
+.hero-after .row {
   background-color: rgba(0, 0, 0, 0.56);
 }
-
+.hero-after> .row ~ .row {
+    background-color: transparent;
+}
+.hero-after {
+  overflow-x: hidden;
+}
+.fun {
+  background-color: transparent;
+}
+.footer {
+  background-color: transparent;
+}
 .content .row {
   background-color: transparent;
 }

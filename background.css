@@ -11,23 +11,23 @@
 
 #beginning {
   background-position-y: 80% !important;
-  background-image: url(https://europeanhistory.boisestate.edu/images/maps/Byzantine_Empire_1025.png);
+  background-image: url(images/optimized/Byzantine_Empire_1025.png);
 }
 
 #second {
-  background-image: url(http://t1.gstatic.com/images?q=tbn:ANd9GcQfPI5JCE6BP7rtk5OVjcWKgI-11ozklqkfG6RfVuUQoZejVcL3:faculty.cua.edu/pennington/CracChevaliers.jpg);
+  background-image: url(images/optimized/images.jpeg);
       background-position-y: 40% !important;
 }
 
 #third {
-  background-image: url(http://102.imagebam.com/download/R064_FMRhyZ50O-v3dxIIw/26362/263612928/100.jpg);
+  background-image: url(images/optimized/3.jpg);
 
 }
 #fourth {
- background-image: url(https://standrewsrarebooks.files.wordpress.com/2013/02/constantinople-2-melling-voyage-pittoresque.jpg); 
+ background-image: url(images/optimized/4.jpg); 
 }
 #fifth {
- background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/02/Capturing_Damiate.jpg);
+ background-image: url(images/optimized/5.jpg);
 }
 #sixth {
  background-image: url(http://upload.wikimedia.org/wikipedia/commons/3/31/Antoine_Pesne_-_Frederick_the_Great_as_Crown_Prince_-_WGA17377.jpg);
